@@ -1,0 +1,269 @@
+/*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+:root {
+  --primary-color:#98AA28;
+  --secondary-color:#A2BDAA;
+  --body-text-color:#78847D;
+  --dark-Green: #253D32;
+  --white-Color: #FFFFFF;
+  --dark-yellow:#ffbe45;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+    color: #444444;
+  }
+ 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Rubik', sans-serif;
+  }
+ /*--------------------------------------------------------------
+  # Navbar
+  --------------------------------------------------------------*/
+  .nav-item a{
+    color: var(--white-Color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400
+  }
+  .btn-free{
+    width: 140px;
+    height: 55px;
+border: 1px solid var(--primary-color);
+background: rgba(255, 255, 255, 0.10);
+  }
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero-header {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/hero-bg.png") top center;
+    background-size: 100% 100%;
+ 
+  }
+  
+  #hero .container {
+    padding-top: 74px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    color: var(--white-Color);
+    font-size: 90px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.6px;
+  }
+   
+  #hero h2 {
+    color: var(--white-Color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.72px;
+opacity: 0.8;
+  }
+   .des{
+color: var(--body-text-color);
+text-align: center;
+font-weight: 400;
+line-height: 40px; 
+   }
+
+   .btn-get{
+    background: var(--primary-color);
+    box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+   }
+   .btn-get:hover , .btn-free:hover{
+    background-color: var(--dark-Green);
+   }
+
+  /*--------------------------------------------------------------
+  # clients Section
+  --------------------------------------------------------------*/
+  .clients{
+    background-color:   #F6FBF9;
+
+  }
+   /*--------------------------------------------------------------
+  # services Section
+  --------------------------------------------------------------*/
+  .sec-l{
+color: var(--dark-Green);
+font-weight: 700;
+line-height: 65px; 
+letter-spacing: 0.84px;
+  }
+  .cont-l{
+color: var(--body-text-color);
+font-weight: 400;
+line-height: 40px; 
+  }
+  .tit{
+color: var(--dark-Green);
+font-weight: 500;
+line-height: 36px;
+  }
+  .desc{
+    color: var(--body-text-color);
+    line-height: 30px;
+  }
+  .SEO{
+color: var(--dark-Green);
+font-weight: 500;
+line-height: 36px; 
+  }
+   /*--------------------------------------------------------------
+  #  Sub Section
+  ------------------------------------------------------------*/
+  .sub {
+    background-size: cover;
+  padding: 90px 0;
+    min-height:  542px;
+    background-image: url(../images/subscribe-bg.png) ;
+
+}
+.em {
+
+ min-height: 68px;
+  font-size: 20px;
+  background: linear-gradient(332deg, #FFF 3.37%, #E2E2E2 132.9%);
+  box-shadow: 0px 34px 50px 0px rgba(7, 63, 67, 0.07);
+}
+ .subtitle{
+color: var(--white-Color);
+font-weight: 600;
+line-height: 55px; 
+letter-spacing: 0.32px;
+
+ }
+
+ /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer .footer-top {
+  background: var(--white-Color);
+  border-bottom: 1px solid #22222248;
+  padding: 90px 0 50px 0;
+ 
+}
+#footer .footer-top .footer-info p {
+color: var(--body-text-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; 
+letter-spacing: 0.2px;
+}
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--secondary-color);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 7px;
+  border-radius: 50px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .footer-top .social-links a:hover {
+  background: var(--primary-color);
+  color: #151515;
+  text-decoration: none;
+}
+#footer .footer-top h4 {
+  color: var(--dark-Green);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; 
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: var(--body-text-color);
+   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+  transition: 0.3s;
+  text-decoration: none;
+
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: var(--dark-Green);
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 40px;
+  color: var(--body-text-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; 
+}
+
+/*--------------------------------------------------------------
+#start grid system
+--------------------------------------------------------------*/
+
+@media (min-width:576){ /* small devi*/
+  .art {
+    max-width:238px;
+    max-height: 68px;
+  }
+  
+}
+@media (max-width: 768px) {/* md devi*/
+  #hero {
+    height: auto;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+    line-height: 24px;
+  } 
+.yy{
+  padding-right: 85px;
+}
+.sec-l{
+  text-align: center;
+}
+#services, #article{
+  text-align: center;
+}
+}
+
+@media (min-width: 1024px) { /* xl devi*/
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+
+ 
